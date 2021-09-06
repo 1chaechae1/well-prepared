@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>셀렉터 만들기</title>
+<style>
+	h3:first-letter{color:red;}
+	div{border:3px dotted red;}
+	strong{color:orange; font-size:20px;}
+	.warning{color:red;}
+	#list{background-color:pink;}
+	div.di{background-color:yellow;}  /*지정할 수 있는 범위가 한정되어 있음.*/
+	* {color:green;}
+	ul strong{color:blue;}
+	li:hover{background:yellowgreen;}
+</style>
+</head>
+<body>
+<h3>Web Programming</h3>
+<hr>
+<div>
+	<div>2학기 <strong>학습 내용</strong></div>
+	<ul id="list">
+	<li class="warning">HTML5</li>
+	<li><strong>CSS</strong></li>
+	<li>JAVASCRIPT</li>
+	</ul>
+	<div class="di">60점 이하는 F!</div>
+</div>
+</body>
+</html>
