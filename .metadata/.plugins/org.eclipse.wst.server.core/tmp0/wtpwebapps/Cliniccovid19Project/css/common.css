@@ -1,7 +1,0 @@
-@charset "utf-8";
-
-/* a element */
-a.disabled {
-	pointer-events: none;
-	cursor: default;
-}
