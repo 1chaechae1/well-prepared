@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>테이블 만들기</h3>
+	<hr>
+	
+	<table border=1>
+		<thead><tr>
+					<th>제목</th>
+					<th>제목2</th>
+			   </tr>
+	 	</thead><!-- tr은 줄,td는 칸 -->
+		<tbody>
+		        <tr>
+					<td>1</td>
+					<td>2</td>
+			   </tr>
+			   <tr>
+			   		<td>3</td>
+					<td>4</td>
+			   </tr>
+		</tbody>
+		<tfoot></tfoot>
+	</table>
+	
+	<br>
+	<h3>표2</h3>
+	<table border=1 width=300 height=300>
+		<caption>표</caption>
+		<tr bgcolor="yellow"><!-- 1번째 줄 -->
+			<td rowspan=2>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr align=center><!-- 2번째 줄 -->
+			<!-- <td>4</td> -->
+			<td bgcolor=pink>5</td>
+			<td>6</td>
+		</tr>
+		<tr><!-- 3번째 줄 -->
+			<td colspan=3>7</td>
+			<!-- <td>8</td>
+			<td>9</td> -->
+		</tr>
+	</table>		
+</body>
+</html>
+
+
+
